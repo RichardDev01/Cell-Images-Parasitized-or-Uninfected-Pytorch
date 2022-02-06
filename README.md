@@ -13,3 +13,9 @@ If you are a developer you need to run this command:
 ```bash 
 pip install .[dev]
 ```
+
+If you want to create a venv, use this
+```bash
+pip install ipykernel
+python -m ipykernel install --name=pytorch-cell_img
+```
